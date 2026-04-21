@@ -1,20 +1,20 @@
-# 💬 C Chat System
+#  C Chat System
 
 A multi-client chat application written in C using TCP sockets and pthreads.
 
-## 🚀 Features
+##  Features
 - Multi-client server
 - Real-time message broadcasting
 - Thread-per-client model
 - Mutex synchronization
 
-## 🛠️ Build
+##  Build
 
 ```bash
 make
 ```
 
-## ▶️ Run
+##  Run
 
 Start server:
 ```bash
@@ -26,13 +26,13 @@ Start clients:
 ./build/client
 ```
 
-## 🧠 Concepts
+##  Concepts
 - Socket programming
 - Multithreading
 - Synchronization
 - Networking fundamentals
 
-## 📌 Future Improvements
+##  Future Improvements
 - Usernames
 - Chat rooms
 - select() instead of threads
